@@ -264,6 +264,10 @@ set(EXTCPPSRC
 	external/epirb_tx/main.cpp
 	external/epirb_tx/ui_epirb_tx.cpp
 
+	#chat
+	external/chat/main.cpp
+	external/chat/ui_chat.cpp
+
 	#soundboard  272byte  - 1236 bytes
 	external/soundboard/main.cpp
 	external/soundboard/soundboard_app.cpp
@@ -394,6 +398,7 @@ set(EXTAPPLIST
 	ert
 	epirb_rx
 	epirb_tx
+	chat
 	soundboard
 	game2048
 	bht_tx
